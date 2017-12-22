@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Register new user through API and send notification mail
+ * Register new user through API
  */
 function mojo_insert_user( $data ) {
 
@@ -13,8 +13,7 @@ function mojo_insert_user( $data ) {
 	$user->add( $data );
 	mojo_add_bulk_usermeta( $user->id, $data );
 
-	$mails = new Mojo_Mails();
-	$mails->registration( $user );
+	//do_action( 'mojo_send_registration_mail', $user );
 }
 
 /**
@@ -37,4 +36,13 @@ function mojo_add_bulk_usermeta( $user_id = 0, $data = array() ) {
 
 	// Fired after updating usermeta
 	do_action( 'mojo_add_bulk_usermeta', $user_id );
+}
+
+/**
+ * Send notification mail to new registered user
+ */
+add_action( "registration_mail" , "mojo_send_registration_mail" , 10, 2);
+function mojo_send_registration_mail($user){
+	$mails = new Mojo_Mails();
+	$mails->registration( $user );
 }

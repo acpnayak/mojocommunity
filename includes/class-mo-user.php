@@ -240,6 +240,8 @@ class Mojo_User {
 
 			do_action( 'mojo_insert_user', $this->id, $args );
 
+			do_action( 'registration_mail', $args );
+
 		}
 
 	}

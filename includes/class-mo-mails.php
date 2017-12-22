@@ -12,7 +12,7 @@ class Mojo_Mails {
 	 * Send mail to current registered user
 	 */
 	public function registration( $user ){
-		$email   = $user->email;
+		$email   = $user['user_email'];
 		$message = $email . ' Your registration has been successful.';
 		$subject = "You are now a member!";
 		$headers = 'From:' . "jotpal@enacteservices.com";
