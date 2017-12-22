@@ -1,0 +1,62 @@
+/* MDL */
+.mdl-textfield,
+.mdl-selectfield {
+	padding-top: 0;
+}
+
+/* Welcome page */
+.about-wrap.about-mojo .wp-badge {
+	background-image: none;
+	padding-top: 0;
+	height: 160px;
+}
+
+.mojo_badge {
+	font-size: 90px;
+	display: block;
+	margin: 20px auto 20px auto;
+}
+
+.mojo_badge.dashicons,
+.mojo_badge.dashicons-groups:before {
+	width: 100% !important;
+	height: 80px !important;
+}
+
+/* Lists */
+body.post-type-mojo_form th.column-title,
+body.post-type-mojo_role th.column-title {
+	width: 20%;
+}
+
+body.post-type-mojo_form th.column-status,
+body.post-type-mojo_form td.column-status {
+	width: 10%;
+	text-align: center !important;
+}
+
+body.post-type-mojo_form th.column-shortcode,
+body.post-type-mojo_form td.column-shortcode {
+	width: 20%;
+	font-size: 15px;
+	color: #999;
+}
+
+body.post-type-mojo_form th.column-date {
+	width: auto;
+}
+
+/* Tooltips */
+.mojo_help_tip {
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+	cursor: default;
+	color: #999;
+}
+
+/* Span */
+span.success {color: #41B05C}
+span.err, span.fail {color: #C75657}
+span.wait {color: #ccc}

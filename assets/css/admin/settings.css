@@ -1,0 +1,36 @@
+.mojo {
+	font-family: Roboto;
+}
+
+table.mojo-form-table th {
+	font-weight: 400;
+	color: #666;
+}
+
+table.mojo-form-table td {
+	font-weight: 400;
+}
+
+table.mojo-form-table td span.description {
+	font-style: normal;
+	opacity: 0.7;
+}
+
+table.mojo-form-table td.forminp-checkbox label {
+	display: inline;
+	color: #999;
+	position: relative;
+	top: -4px;
+}
+
+table.mojo-form-table td.forminp input[type=text] {
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	box-shadow: none;
+}
+
+table.mojo-form-table td.forminp input[type=text]:focus {
+	box-shadow: none;
+}

@@ -1,0 +1,318 @@
+/* MDL */
+.mdl-menu__item  {
+	height: 36px;
+	line-height: 36px;
+}
+
+.mdl-menu__item a {
+	font-family: Roboto;
+	font-size: 14px;
+	border: none !important;
+	text-decoration: none !important;
+	color: #333 !important;
+	outline: none !important;
+}
+
+.mdl-textfield input.mdl-textfield__input,
+.mdl-textfield textarea.mdl-textfield__input {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	box-shadow: none;
+	border-bottom: 1px solid rgba( 0, 0, 0, 0.12 );
+	padding: 4px 0;
+}
+
+.mdl-selectfield .mdl-selectfield__list-option-box {
+	top: 24px;
+}
+
+.mdl-selectfield__box>.mdl-selectfield__arrow-down__container {
+    margin-top: 0px;
+}
+
+.mdl-selectfield__label {
+    top: 18px;
+}
+
+.mdl-selectfield__box .mdl-selectfield__box-value {
+	top: 18px;
+}
+
+.mdl-spinner * {
+	border-color: #aaa;
+}
+
+.mdl-button .mdl-spinner {
+	margin-right: 10px;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+}
+
+.mojo_form_btn button.mdl-button {
+	padding: 0 16px;
+}
+
+.mojo_form_btn .mdl-button {
+	width: 100%;
+}
+
+.mojo_form_btn a:visited {
+	color: inherit;
+}
+
+.mojo_row_title .mdl-typography--title-color-contrast {
+	font-weight: 400;
+}
+
+/* Fileupload variations */
+.fileuploader-items.single_photo .fileuploader-thumbnails-input,
+.fileuploader-theme-thumbnails .fileuploader-items-list .fileuploader-item {
+	padding: 0;
+	width: 115px;
+	line-height: 105px;
+}
+
+.fileuploader-items.single_photo .fileuploader-thumbnails-input-inner,
+.fileuploader-items.single_photo .thumbnail-holder *,
+.fileuploader-items.single_photo .fileuploader-item-inner {
+	border-radius: 999px;
+}
+
+/* Social Icons */
+[class^="socicon-"], [class*=" socicon-"] {
+	font-family: 'Socicon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Core styles */
+.mojo {
+	width: 100%;
+	margin: 30px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: Roboto;
+}
+
+.mojo a {
+	outline: none !important;
+}
+
+.mojo input, .mojo button {
+	font-family: Roboto;
+}
+
+.mojo_divider {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #eee;
+	margin: 0.5em 0;
+	padding: 0;
+}
+
+/* Forms */
+.mojo_form_login,
+.mojo_form_password,
+.mojo_form_registration {
+	max-width: 450px;
+	margin: auto;
+}
+
+.mojo_form_password {
+	max-width: 300px;
+}
+
+/* Notices */
+.mojo_notices {
+	display: none;
+    border-radius: 2px;
+    margin: 0 15px 10px 15px;
+	padding: 10px 15px;
+	font-size: 14px;
+	line-height: 20px;
+	background: #eee;
+	color: #666;
+}
+
+.mojo_notices.success {
+	background: #41B05C;
+	color: #fff;
+}
+
+.mojo_notices.error {
+	background: #C75657;
+	color: #fff;
+}
+
+.mojo_multiple_errors {
+	font-weight: bold;
+}
+
+.mojo_errors {
+	margin: 4px 0 4px 30px;
+}
+
+/* Overview */
+.mojo_overview {
+	position: relative;
+	background: #f9f9f9;
+	padding: 40px 0;
+}
+
+.mojo_profile_photo {
+	text-align: center;
+}
+
+.mojo_profile_photo img {
+	display: block;
+	overflow: hidden;
+	border-radius: 999px;
+	width: 120px;
+	height: 120px;
+	background: #fff;
+	border: 3px solid #eee;
+	box-sizing: border-box;
+	margin: auto;
+}
+
+.mojo_profile_photo_link {
+	display: block;
+}
+
+.mojo_info {
+	font-size: 14px;
+	line-height: 1.6em;
+	margin: 0 0 10px 0;
+	color: #888;
+}
+
+.mojo_info.large {
+	font-size: 20px;
+	color: #444;
+	font-weight: bold;
+}
+
+.mojo_info i {
+	font-size: 18px;
+	margin: 0 10px 0 0;
+	position: relative;
+	top: -1px;
+}
+
+.mojo_dataname {
+	font-weight: normal;
+	margin: 0 0 0 10px;
+}
+
+.mojo_datatag {
+	position: relative;
+	top: -3px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	color: #fff;
+	font-size: 12px;
+	vertical-align: middle;
+	background: #bbb;
+	opacity: 0.9;
+}
+
+.mojo_datatag.administrator {background: #D92B51}
+
+/* Nav */
+.mojo_nav {
+	padding: 10px 0 0 0;
+}
+
+.mojo_nav a {
+	margin-right: 10px;
+}
+
+/* Card */
+.mojo_card {
+	width: 100%;
+	min-height: 200px;
+	box-shadow: 0 2px 2px 0 rgba( 0, 0, 0, .14 ),
+				0 1px 1px -2px rgba( 0, 0, 0, .2 ),
+				0 1px 1px 0 rgba( 0, 0, 0, .12 );
+	padding: 0 0 20px 0;
+}
+
+.mojo_photo {
+	padding: 40px 0 0 0;
+	text-align: center;
+}
+
+.mojo_photo a {
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 999px;
+}
+
+.mojo_photo img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.mojo_card_base_info {
+	padding: 15px 0;
+}
+
+.mojo_card_title {
+	margin: 2px 0 0 0;
+	font-weight: 500;
+}
+
+.mojo_card_subtitle {
+	margin: 2px 0 0 0;
+	opacity: 0.6;
+}
+
+.mojo_card_subtitle i {
+	font-size: 21px;
+	position: relative;
+	top: -2px;
+	opacity: 0.5;
+	margin: 0 2px 0 0;
+}
+
+.mojo_card_icon {
+	display: inline-block;
+	padding: 4px;
+	margin: 4px;
+	font-size: 16px;
+	color: #777;
+	text-decoration: none !important;
+}
+
+.mojo_card_caption {
+	margin: 8px 0 0 0;
+}
+
+.mojo_card_line {
+	margin: 8px auto;
+	width: 30px;
+	display: block;
+	border-top: 3px solid transparent;
+	border-radius: 999px;
+}
+
+.mojo_card_line.is-active {
+	border-color: #ff6000;
+}

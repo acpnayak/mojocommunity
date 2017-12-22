@@ -1,0 +1,313 @@
+/* MDL */
+.wp-admin.post-type-mojo_form a.mdl-button,
+.wp-admin.post-type-mojo_role a.mdl-button {
+	box-shadow: none;
+	font-size: 0.9em;
+	line-height: 37px;
+	color: #666;
+}
+
+.wp-admin.post-type-mojo_form a.mdl-button[disabled] {
+	opacity: 0.5;
+	cursor: default;
+	pointer-events: none;
+}
+
+.wp-admin.post-type-mojo_form a.mdl-button .material-icons {
+	position: relative;
+	top: -1px;
+}
+
+.mojo_col_links_wrap .material-icons,
+.mojo_col_field .material-icons,
+.mojo_row_actions .material-icons {
+    font-size: 19px;
+    vertical-align: middle;
+}
+
+.wp-admin.post-type-mojo_form .mojo_field_icons a.mdl-button .material-icons,
+.wp-admin.post-type-mojo_form .mojo_col_links a.mdl-button .material-icons,
+.wp-admin.post-type-mojo_form .mojo_row_actions a.mdl-button .material-icons,
+.wp-admin.post-type-mojo_form .mojo_add_field a.mdl-button .material-icons {
+	position: absolute;
+	top: 50%;
+	opacity: 0.62;
+}
+
+.mdl-menu__item  {
+	height: 36px;
+	line-height: 36px;
+}
+
+.mdl-menu__item a {
+	font-family: Roboto;
+	font-size: 14px;
+	border: none !important;
+	text-decoration: none !important;
+	color: #333 !important;
+	outline: none !important;
+}
+
+.mojo-metabox-grid .mdl-cell {
+	padding: 32px 0;
+}
+
+.mojo-metabox-grid .mdl-cell a {
+	text-decoration: none;
+	box-shadow: none !important;
+}
+
+.mojo_cols .mdl-cell {
+	background: #f9f9f9;
+}
+
+/* Common */
+.mojo_hide,
+a.button.mojo_hide,
+#minor-publishing-actions,
+#misc-publishing-actions,
+.mojo_builder_template {
+	display: none;
+}
+
+#major-publishing-actions {
+	border-top: 0;
+	background: #fff;
+}
+
+#mojo_form_info .inside,
+#mojo_form_shortcode .inside,
+#mojo_form_builder .inside,
+#mojo_role_overview .inside,
+#mojo_role_capabilities .inside,
+#mojo_list_settings .inside,
+#mojo_list_shortcode .inside {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+
+.mojo_singledata {
+	padding: 14px;
+	font-size: 15px;
+}
+
+.mojo_move {
+	cursor: move;
+}
+
+.mojo_buttons {
+	margin: 20px 0 0 0;
+}
+
+/* Admin table */
+table.mojo-form-table {
+	margin: 0;
+	margin-left: 20px;
+}
+
+table.mojo-form-table th {
+	font-weight: 400;
+	width: 220px;
+	color: #666;
+}
+
+table.mojo-form-table td.forminp-checkbox label {
+	display: inline;
+	color: #999;
+	position: relative;
+	top: -4px;
+}
+
+table.mojo-form-table td.forminp textarea {
+	width: 250px;
+	min-height: 80px;
+}
+
+table.mojo-form-table td.forminp input[type=text] {
+	background: transparent;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	box-shadow: none;
+}
+
+table.mojo-form-table td.forminp input[type=text]:focus {
+	box-shadow: none;
+}
+
+/* Grid */
+.mojo_datahead {
+	display: block;
+	color: #666;
+	margin: 0 0 10px 0;
+}
+
+.mojo_data {
+	font-size: 17px;
+	color: #444;
+}
+
+/* Meta display */
+.mojo_meta {
+	padding: 0 20px 20px 20px;
+	border-top: 1px solid #eee;
+}
+
+.mojo_meta.alt {
+	background: #eee;
+}
+
+.mojo_meta#mojo_manage_capabilities,
+.mojo_meta#mojo_list_settings {
+	border-top: none;
+	padding: 0;
+}
+
+.mojo_meta p {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+.mojo_meta h3 {
+    margin: 20px 0 0 0;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+	text-shadow: 0 1px #fff;
+}
+
+.mojo_meta p.description {
+	font-style: normal;
+	opacity: 0.65;
+}
+
+.mojo_meta ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ccc;
+}
+.mojo_meta :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ccc;
+   opacity:  1;
+}
+.mojo_meta ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ccc;
+   opacity:  1;
+}
+.mojo_meta :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ccc;
+}
+
+/* Form builder */
+.mojo_form_row {
+	border-top: 1px solid #eee;
+	box-sizing: border-box;
+}
+
+.mojo_form_row.add {
+	background: #f9f9f9;
+}
+
+.mojo_form_row a {
+	box-shadow: none !important;
+}
+
+.mojo_form_row.add .mojo_col {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.mojo_form_actions {
+	background: #f9f9f9;
+	margin: 0 0 20px 0;
+	padding: 10px 15px;
+}
+
+.mojo_form_actions a.button {
+	box-shadow: none !important;
+}
+
+.mojo_form_response {
+	font-size: 13px;
+	line-height: 36px;
+	opacity: 0.75;
+	display: none;
+}
+
+.mojo_row_actions {
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	background-color: #ccc;
+}
+
+.mojo_row_actions a {
+	float: left;
+}
+
+.mojo_row_title {
+	float: left;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.mojo_row_title input[type=text],
+.mojo_row_title input[type=text]:focus {
+	font-size: 13px;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	background-color: #ccc;
+}
+
+.mojo_col_links_wrap {
+	width: 100%;
+	height: 32px;
+	background: #eee;
+}
+
+.mojo_col_fields {
+	min-height: 20px;
+}
+
+.mojo_col_field {
+	height: 32px;
+	line-height: 32px;
+	padding: 0 0 0 5px;
+	background: #fff;
+	margin: 15px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 1px 1px #eee;
+	color: #999;
+}
+
+.mojo_field_name_wrap span.mojo_handle {
+    width: 32px;
+    text-align: center;
+    display: inline-block;
+	cursor: move;
+}
+
+.mojo_field_name input[type=text],
+.mojo_field_name input[type=text]:focus {
+	font-size: 13px;
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	color: #999;
+	max-width: 50%;
+}
+
+.mojo_col_field_highlight {
+	margin: 15px;
+	background: transparent;
+	border: 2px dashed #ddd;
+	border-radius: 2px;
+	box-shadow: none;
+}
+
+.mojo_add_field {
+	padding: 5px 0 20px 0;
+	text-align: center;
+}
